@@ -5,12 +5,12 @@ in this repository, I'm going to recreate and structure all the design patterns 
 ## Installation and usage
 
 - clone repo
-  
+
   ```terminal
   git clone https://github.com/p4sttt/react-design-patterns.git
   ```
 
-- download  the dependencies
+- download the dependencies
 
   ```terminal
   npm install

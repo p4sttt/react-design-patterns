@@ -22,7 +22,11 @@ export const PagesList = () => {
   return (
     <div className={styles.group}>
       {pages.map((page) => (
-        <PageCard key={page.link} title={page.title} link={page.link} />
+        <PageCard
+          key={page.link}
+          title={page.title}
+          link={page.link}
+        />
       ))}
     </div>
   );

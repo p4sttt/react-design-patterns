@@ -8,7 +8,10 @@ interface PageCardProps {
   title: string;
 }
 
-export const PageCard: FC<PageCardProps> = ({ title, link }) => {
+export const PageCard: FC<PageCardProps> = ({
+  title,
+  link,
+}) => {
   return (
     <Link to={link} className={styles.box}>
       <p>{title}</p>
